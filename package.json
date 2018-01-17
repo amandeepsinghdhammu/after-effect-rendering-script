@@ -1,0 +1,28 @@
+{
+  "name": "render-app",
+  "version": "1.0.0",
+  "description": "To render videos using after-effects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amandeep Singh",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.102.0",
+    "bluebird": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "ffmpeg": "0.0.4",
+    "file-type": "^6.1.0",
+    "fs-extra": "^5.0.0",
+    "is-audio": "0.0.0",
+    "is-image": "^2.0.0",
+    "is-video": "^1.0.1",
+    "mass-mkdirp": "^1.1.6",
+    "nexrender": "^0.5.1",
+    "path-exists": "^3.0.0",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4"
+  }
+}
